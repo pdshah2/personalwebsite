@@ -1,0 +1,166 @@
+	p{
+		line-height: 10pt;
+	}
+
+	#logoLink{
+		font: 400 40px/1.1 'Oleo Script', Helvetica, sans-serif;
+  		color: black;
+  		text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+	}
+
+	h1, h2{
+	    color: #921A00;
+		font-weight: bold;
+		line-height: 10pt;
+		margin: 0 0 10pt 0;
+		font-family: Gill Sans;
+		font-size: 25px;
+	}
+
+	a{
+		color: darkblue;
+		/*text-decoration: none;*/
+		font-family: Gill Sans;
+		text-decoration: underline;
+	}
+
+	a:hover, a:active{ 
+		text-decoration: underline;
+	}
+
+	body{
+
+	    font-family: Gill Sans;
+	    font-size: 80%;
+	    line-height: 10pt;
+	    width: 100%;
+	    margin: 0;
+	    background: #eee;
+	}
+
+	#page{ 
+		margin: 20px;
+	}
+
+	#logo{
+		width: 35%;
+		margin-top: 5px;
+		font-family: georgia;
+		display: inline-block;
+	}
+
+	#nav{
+		width: 60%;
+		display: inline-block;
+		text-align: right;
+		float: right;
+		font-size: 10pt;
+	}
+
+	#nav ul li{
+		display: inline-block;
+		height: 50px;
+
+	}
+
+	#nav ul li a{
+		padding: 20px;
+		background: #921A00;
+		color: white;
+	}
+
+	#nav ul li a:hover{
+		background-color: #921A00	;
+		box-shadow: 0px 1px 1px #666;
+	}
+
+	#nav ul li a:active{
+		background-color: #B62000;
+	}
+
+	#content, img{
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+ 
+	}
+
+	#about, #content {
+		margin: 30px 0;
+		background: white;
+		padding: 20px;
+		padding-bottom: 20px;
+		overflow-wrap: break-word;
+		font-family: Gill Sans;
+		font-weight: 100;
+		font-size: 20px
+
+	}
+
+	p.caption{
+
+		background: white;
+		overflow-wrap: break-word;
+		font-family: Gill Sans;
+		font-weight: 100;
+		line-height: 20px;
+		font-size: 20px
+
+	}
+
+	#about ul li, #content ul li{
+		padding: 5px 0px;
+		line-height: 20px;
+
+	}
+
+	#footer{
+		border-bottom: 1px #ccc solid;
+		margin-bottom: 10px;
+	}
+
+	#footer p{
+		text-align: right;
+		text-transform: uppercase;
+		font-size: 80%;
+		color: grey;
+	}
+
+	#content{
+		box-shadow: 0px 1px 1px #999;
+	}
+
+	img.cover{
+		float: right;
+		margin-top: 100px
+	}
+
+	#bg {
+	  
+	  	top: 0; 
+	  	left: 0; 
+		 min-width: 10%;
+		min-height: 10%;
+	}
+
+	#bg img {
+		position: fixed;
+		left: 50px;
+		top: 50px;
+		z-index: -1;
+	}
+
+	div.logos{
+		background: white;
+		padding: 100px;
+		padding-bottom: 150px;
+
+	}
+
+	div.logos img{
+		display: block;
+		float:left;
+		margin: 10px;
+		padding: 20px;
+		padding-top: 0px;
+	}
